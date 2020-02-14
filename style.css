@@ -1,0 +1,198 @@
+*   {
+    margin:0;
+    padding:0;
+    }
+
+html, body {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color:black;
+    opacity: 0.9;  
+    height: 100%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+/* header */
+
+ header {
+  position: fixed;
+  width: 100%;
+  text-align: center;
+  border-bottom: 1px solid seashell;
+  background: black;
+  height: 69px;
+  margin-top: 0px;
+  display: flex;
+  justify-content: space-between; /*add space between*/
+  align-items: center; /*center algin vertically*/
+  z-index: 12;
+}
+
+header img {
+    height: 50px;
+    float: left;
+    display: block;
+    margin-left: 10px;
+    margin-top: 14.5px;
+    margin-bottom: 14.5px;
+}
+
+header ul {
+    display: flex;
+}
+
+header li {
+    list-style: none;
+    float: right;
+    text-decoration: underline;
+    padding-right: 20px;
+    flex-direction: row-reverse;
+    vertical-align: middle;
+}
+
+header li a {
+color: seashell;
+}
+
+/* mission section */
+
+ .mission {
+    height: 700px;
+    width: 1200px;
+    text-align: center;
+    display: block;
+    background-image: url(img-mission-background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+}
+
+.mBanner {
+    width: 100%;
+    background-color: black;
+    position: relative;
+    top: 50%; 
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; 
+}
+.mBanner h2 {
+    padding-top: 5px;
+}
+
+.mBanner h4 {
+    vertical-align: middle;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+/* featured section */
+.featured {
+    width: 1000px;
+    height: auto;
+    text-align: center;
+    margin: 50px auto;
+    background: black;
+}
+
+.featured h2 {
+    padding-top: 5px;
+}
+
+.featured h4 {
+    padding-top: 20px;
+    padding-bottom: 15px; 
+}
+
+figure {
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+    margin:10px;
+  }
+
+  figure img {
+      max-width: 300px;
+  }
+
+  figure img caption {
+      margin-top: 10px;
+  }
+/* locations section */
+
+.locations {
+    width: 1200px;
+    height: 600px;
+    background-image: url(img-locations-background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+}
+
+.locationsBanner {
+    padding-top: 80px;
+}
+
+.locationRow {
+    display: block;
+    margin-top: 15px;
+}
+
+.locationRow h3 {
+    font-size: 24px;
+    padding: 15px;
+    font-family: Helvetica, sans-serif;
+    font-weight: normal;
+    padding: 20px 10px 30px 10px;
+}
+.locationBlock1 {
+    background: black;
+    width: 300px;
+    opacity: 1;
+    display: inline-block;
+    margin-right: 40px;
+}
+
+.locationBlock2 {
+    background: black;
+    width: 300px;
+    opacity: 1;
+    display: inline-block;
+    margin-right: 40px;
+}
+
+.locationBlock3 {
+    background:black;
+    width: 300px;
+    opacity: 1;
+    display: inline-block;
+}
+
+/* Contact section*/
+
+.contact {
+    height: 200px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.contact h2 {
+    padding-bottom: 40px;
+    padding-top: 10px;
+}
+
+.contact h5 {
+    padding-bottom: 20px;
+}
+
+/* copyright footer section */
+
+footer {
+    margin-left: 20px;
+    margin-bottom: 30px;
+    text-align: left;
+}
